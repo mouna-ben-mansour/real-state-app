@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Flex, Box, Text, Button } from '@chakra-ui/react';
-import { Banner } from './Banner'
+import  Banner  from '../components/Banner'
 import { fetchApi, baseUrl } from '../utils/fetchApi';
 import  Property  from '../components/Property';
 
